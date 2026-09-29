@@ -92,17 +92,6 @@ Nguyên nhân: thêm route với source IP khi địa chỉ đó chưa được 
 
 Khắc phục: cấu hình IPv4 cho eth0 trước rồi kiểm tra lại route.
 
-### Nhầm -sn và -sS
-
-- -sn: Host Discovery.
-- -sS: TCP SYN Scan.
-
-### Nhầm -0 và -O
-
-OS Detection sử dụng chữ O viết hoa:
-
-    sudo nmap -O 192.168.56.101
-
 ## Kết luận
 
 LAB4 đã được thực hiện trong mạng VirtualBox Host-Only cô lập. Các kỹ thuật Nmap chính đã được thực hiện trên máy Metasploitable 2 phục vụ mục đích thực hành an toàn thông tin.
