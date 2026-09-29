@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Tue Sep 29 04:11:47 2026 as: /usr/lib/nmap/nmap -sn -oN 01_host_discovery.txt 192.168.56.0/24
+Nmap scan report for 192.168.56.1
+Host is up (0.00019s latency).
+MAC Address: 0A:00:27:00:00:00 (Unknown)
+Nmap scan report for 192.168.56.101
+Host is up (0.00070s latency).
+MAC Address: 08:00:27:8C:1B:B4 (Oracle VirtualBox virtual NIC)
+Nmap scan report for 192.168.56.10
+Host is up.
+# Nmap done at Tue Sep 29 04:11:49 2026 -- 256 IP addresses (3 hosts up) scanned in 1.87 seconds
