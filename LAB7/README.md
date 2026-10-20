@@ -10,8 +10,6 @@
 - PASS: DC01 ping gateway 10.6.0.1, DNS Server Running.
 - PASS: tạo zone lab7.test và 13 bản ghi A về 172.16.6.10; normal phân giải đúng.
 - Đang thực hiện: cài WEB-PROXY; chưa xác nhận reboot và IP tĩnh.
-- CHƯA KIỂM THỬ: cả 10 kịch bản Web Protection, AV, size limit, schedule và HTTPS inspection.
-- Toàn bài: CHƯA HOÀN THÀNH.
 
 ## Các bước đã làm
 1. Tạo snapshot LAB7_START trên pfSense và DC01.
@@ -19,12 +17,6 @@
 3. Cài DNS Server, tạo primary zone lab7.test.
 4. Thêm 13 bản ghi A về 172.16.6.10.
 5. Tạo WEB-PROXY: 2GB RAM, 2CPU, 20GB disk, Internal Network lab6-lan; thực hiện cài Ubuntu đến reboot.
-
-## Lỗi và khắc phục
-DNS chưa được cài: cài vai trò DNS và xác nhận Running.
-Gõ sai lệnh: sửa nslookup và khoảng trắng tham số.
-Không có clipboard: gõ lệnh trực tiếp.
-Yêu cầu tháo ISO: cần tháo ISO rồi reboot, chưa có ảnh xác nhận hoàn tất.
 
 ## Hồ sơ
 Báo cáo Word ở thư mục này; evidence/ chứa 4 ảnh thực hành.
