@@ -1,0 +1,15 @@
+BẢN CHÉP TỪ NỘI DUNG SINH VIÊN GỬI TRONG HỘI THOẠI
+Không phải log thu tự động hoặc packet capture.
+
+$ VBoxManage showvminfo "LAB6-pfSense" --machinereadable [lọc NIC6]
+VMState="running"
+intnet6="attack-net"
+cableconnected6="on"
+nic6="intnet"
+nictype6="82540EM"
+
+Trong pfSense:
+$ ifconfig -l
+em0 em1 em2 em3 em4 enc0 lo0 pflog0 pfsync0
+
+Kết luận: chưa có em5; chưa xác định nguyên nhân.
